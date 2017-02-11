@@ -1,0 +1,13 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+header.jumbotron {
+  background: url("meat.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+}
+header .container {
+  margin-top: 13%;
+}
