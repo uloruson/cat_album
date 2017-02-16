@@ -43,6 +43,9 @@ GEM
     coffee-script-source (1.8.0)
     erubis (2.7.0)
     execjs (2.7.0)
+    gmaps4rails (2.1.2)
+    google-search (1.0.3)
+      json
     hike (1.2.3)
     i18n (0.8.0)
     jbuilder (2.6.1)
@@ -57,8 +60,11 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
+    mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_json (1.12.1)
+    nokogiri (1.7.0.1-x64-mingw32)
+      mini_portile2 (~> 2.1.0)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -118,8 +124,11 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   coffee-script-source (= 1.8.0)
+  gmaps4rails
+  google-search
   jbuilder (~> 2.0)
   jquery-rails
+  nokogiri
   rails (= 4.1.16)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
