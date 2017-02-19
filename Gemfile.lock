@@ -34,6 +34,10 @@ GEM
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
     builder (3.2.3)
+    carrierwave (1.0.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -47,6 +51,10 @@ GEM
     google-search (1.0.3)
       json
     hike (1.2.3)
+    hirb (0.7.3)
+    hirb-unicode (0.0.5)
+      hirb (~> 0.5)
+      unicode-display_width (~> 0.1.1)
     i18n (0.8.0)
     jbuilder (2.6.1)
       activesupport (>= 3.0.0, < 5.1)
@@ -116,16 +124,20 @@ GEM
       tzinfo (>= 1.0.0)
     uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
+    unicode-display_width (0.1.1)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
   bootstrap-sass
+  carrierwave
   coffee-rails (~> 4.0.0)
   coffee-script-source (= 1.8.0)
   gmaps4rails
   google-search
+  hirb
+  hirb-unicode
   jbuilder (~> 2.0)
   jquery-rails
   nokogiri

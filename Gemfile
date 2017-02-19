@@ -27,3 +27,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'nokogiri'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
+# コンソール上でDB内容を見やすくするgem
+gem 'hirb'
+gem 'hirb-unicode'
+# 画像処理用gem
+gem 'carrierwave'
+# gem 'rmagick'
