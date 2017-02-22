@@ -33,4 +33,4 @@ gem 'hirb'
 gem 'hirb-unicode'
 # 画像処理用gem
 gem 'carrierwave'
-# gem 'rmagick'
+gem 'rmagick'
