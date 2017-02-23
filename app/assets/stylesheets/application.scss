@@ -3,20 +3,56 @@
 @import "bootstrap";
 
 header.jumbotron {
-  background: url("meat.jpg");
-  background-position: center center;
+  display: flex;
+  background: url("neko_top_001.jpg");
+  background-position: center;
+  justify-content: center;
+  align-items: flex-end;
   background-size: cover;
   color: #fff;
+  height: 100vh;
 }
-header.container {
-  margin-top: 13%;
-}
+// header.container {
+//   margin-top: 13%;
+// }
 
-.cover {
-  object-fit: cover;
-  width: 300px;
-  height: 300px;
-  background-color: #ccc;
-  border: 1px solid #ccc;
+.listImage  {
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto;
+  }
 
+  h2{
+    font-size: 18px;
+  }
+  p{
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .photo{
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+  }
+  a{
+    max-width: 300px;
+    margin: 10px;
+    display: block;
+    border: solid 1px #ddd;
+    color: inherit;
+    text-decoration: none;
+    flex: 1;
+    }
+    a:hover{
+      opacity: 0.8;
+    }
+    .text{
+      margin: 10px;
+    }
+    article{
+      flex: 1 1 300px;
+      display: flex;
+    }
 }
