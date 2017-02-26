@@ -12,9 +12,6 @@ header.jumbotron {
   color: #fff;
   height: 100vh;
 }
-// header.container {
-//   margin-top: 13%;
-// }
 
 .listImage  {
   .container{
@@ -23,7 +20,10 @@ header.jumbotron {
     max-width: 1200px;
     margin: 30px auto;
   }
-
+  article{
+    flex: 1 1 300px;
+    display: flex;
+  }
   h2{
     font-size: 18px;
   }
@@ -51,8 +51,5 @@ header.jumbotron {
     .text{
       margin: 10px;
     }
-    article{
-      flex: 1 1 300px;
-      display: flex;
-    }
+
 }

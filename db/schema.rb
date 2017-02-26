@@ -14,8 +14,9 @@
 ActiveRecord::Schema.define(version: 20170219005434) do
 
   create_table "images", force: true do |t|
+    t.string   "provider"
     t.string   "name"
-    t.binary   "data"
+    t.string   "data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
