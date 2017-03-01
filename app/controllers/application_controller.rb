@@ -43,7 +43,7 @@ class ApplicationController < ActionController::Base
 
   def set_search_word
     #検索ワード設定
-    URI.encode("猫+かわいい")
+    URI.encode("猫+海")
   end
 
 end

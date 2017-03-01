@@ -2,15 +2,61 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// font-family: 'Erica One', cursive;
+// font-family: 'Baloo', cursive;
+
 header.jumbotron {
   display: flex;
-  background: url("neko_top_001.jpg");
-  background-position: center;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("neko_top_001.jpg");
   background-size: cover;
-  color: #fff;
+  //background-position: center;
   height: 100vh;
+  min-height: 450px;
+
+  .container{
+     color: #fff;
+
+    h1{
+      font-family: 'Erica One';
+      letter-spacing: 0.1em;
+      margin-left: 0.1em;
+      margin-bottom: 15px;
+    }
+    p{
+      margin-left: 0.1em;
+      letter-spacing: 0.1em;
+      font-family: "Nico Moji";
+    }
+  }
+}
+
+.nav-sns{
+  margin-top: 50px;
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  a{
+    display: block;
+    color: #fff;
+    padding: 0px;
+    margin-right: 0.5em;
+    font-size: 25px;
+    border: solid 1px currentColor;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 25%;
+    text-decoration: none;
+    flex: auto;
+  }
+  a:hover{
+    background-color: rgba(0, 100, 0, 0.3);
+  }
 }
 
 .listImage  {
@@ -51,5 +97,4 @@ header.jumbotron {
     .text{
       margin: 10px;
     }
-
 }
